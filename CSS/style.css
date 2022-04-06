@@ -1,0 +1,108 @@
+.navbar-brand {
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+}
+body {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 67%
+  );
+}
+
+.nav-item {
+  font-size: 22px;
+}
+
+.quem-somos {
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+.quemSomosText {
+  position: relative;
+  left: 50px;
+  justify-content: center;
+}
+#quem-somos-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  bottom: 30px;
+}
+/* FORM CONFIG CSS*/
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border-color: #e70505;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+}
+.form-control {
+  background-color: transparent;
+  border-color: #e70505;
+}
+.btn-outline-success:hover {
+  background-color: red;
+  border-color: #e70505;
+}
+.btn-outline-success {
+  border-color: #e70505;
+  color: #878c91;
+}
+
+.btn-check:focus + .btn-outline-success,
+.btn-outline-success:focus {
+  box-shadow: 0 0 0 0.25rem red;
+}
+
+/* ------------*/
+
+.img-fluid {
+  padding-bottom: 15px;
+}
+
+.carousel-1 {
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+.parceiros-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 50px;
+}
+
+.serviço-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+#serviços {
+  padding-top: 150px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+.githubservice {
+  position: relative;
+}
+.featurette-divider {
+  margin: 80px;
+}
+
+#quemsomos {
+  padding: 60px;
+}
+#parceiros {
+  margin-top: 250px;
+}
+.container {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
